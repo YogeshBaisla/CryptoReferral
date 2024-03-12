@@ -1,0 +1,64 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+    z-index: 1;
+}
+.innerContainer{
+    --bs-bg-opacity: 1;
+    background-color: rgb(33 37 41) !important;
+    width: 30%;
+    border-radius: 5px;
+}
+.headerContainer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+    color: white;
+    border-radius: 5px;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.useridField{
+width: 100%;
+margin-top:2%;
+border-radius: 2px;
+}
+.passwordField{
+width: 100%;
+margin-top:2%;
+border-radius: 2px;
+}
+.submitButton{
+width: 100%;
+margin-top:2%;
+border-radius: 2px;
+color: black;
+background: #FFCB38;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+}
+.linkStyle{
+    text-decoration: none;
+    color:  #FFCB38;
+}
+.linkStyle:hover{
+    color: rgba(82, 82, 238, 0.247);
+}
+.otherOptionContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
